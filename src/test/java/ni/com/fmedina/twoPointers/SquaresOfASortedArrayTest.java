@@ -15,7 +15,7 @@ class SquaresOfASortedArrayTest {
 
         int[] actual = squaresOfASortedArray.sorterdSquares(nums);
 
-        assertThat(expected, is(expected));
+        assertThat(nums, is(expected));
     }
 
 }
