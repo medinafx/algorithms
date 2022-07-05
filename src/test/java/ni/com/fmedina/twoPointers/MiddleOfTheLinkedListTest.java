@@ -43,7 +43,7 @@ class MiddleOfTheLinkedListTest {
         ListNode head = new ListNode(1, n2);
 
         ListNode expected = n3;
-        ListNode actual = middleOfTheLinkedList.findMiddleNodeUsingArray(head);
+        ListNode actual = middleOfTheLinkedList.findMiddleNodeUsingFastAndSlowPointer(head);
 
         assertEquals(expected, actual);
     }
