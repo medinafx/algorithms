@@ -26,6 +26,6 @@ import java.util.Arrays;
  */
 public class SquaresOfASortedArray {
     public int[] sorterdSquares(int[] nums) {
-        return Arrays.stream(nums).parallel().map(n -> n * n).toArray();
+        return Arrays.stream(nums).parallel().map(n -> n * n).sorted().toArray();
     }
 }
