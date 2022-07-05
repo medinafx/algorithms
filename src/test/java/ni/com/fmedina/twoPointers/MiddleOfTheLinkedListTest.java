@@ -1,6 +1,5 @@
 package ni.com.fmedina.twoPointers;
 
-import ni.com.fmedina.twoPointers.MiddleOfTheLinkedList.ListNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
