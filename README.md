@@ -11,6 +11,7 @@
 - [Reverse String](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/twoPointers/ReverseString.java)
 - [Reverse String III](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/twoPointers/ReverseWordsInAString.java)
 - [Middle of the Linked List](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/twoPointers/MiddleOfTheLinkedList.java)
-- [Remove Nth Node From End of List](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/slidingWindow/LongestSubstring.java)
+- [Remove Nth Node From End of List](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/twoPointers/RemoveNthNodeFromEndOfList.java)
+- [Longest Substring](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/slidingWindow/LongestSubstring.java)
 
 ## 
