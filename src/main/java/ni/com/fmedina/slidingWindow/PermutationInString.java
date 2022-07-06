@@ -18,6 +18,15 @@ import java.util.Arrays;
  */
 public class PermutationInString {
 
+    /**
+     * The idea behind this approach is that one string will be a permutation of another string only
+     * if both of them contain the same characters the same number of times. One string xx is a permutation
+     * of other string yy only if sorted(x)=sorted(y)sorted(x)=sorted(y).
+     *
+     * @param s1
+     * @param s2
+     * @return
+     */
     public boolean checkInclusionUsingSort(String s1, String s2) {
         char[] c = s2.toCharArray();
         Arrays.sort(c);
