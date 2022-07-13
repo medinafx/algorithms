@@ -17,3 +17,5 @@
 ## Sliding Window
 - [Longest Substring](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/slidingWindow/LongestSubstring.java)
 - [Permutation in String](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/slidingWindow/PermutationInString.java)
+
+- [Valid Parentheses](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/ValidParentheses.java)

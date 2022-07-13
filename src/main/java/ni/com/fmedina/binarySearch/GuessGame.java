@@ -13,7 +13,7 @@ package ni.com.fmedina.binarySearch;
  * 1: Your guess is lower than the number I picked (i.e. num < pick).
  * 0: your guess is equal to the number I picked (i.e. num == pick).
  * Return the number that I picked.
- * 
+ *
  */
 public class GuessGame {
     private int num;
