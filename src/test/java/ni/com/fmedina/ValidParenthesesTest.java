@@ -9,7 +9,7 @@ class ValidParenthesesTest {
 
     @Test
     public void whenStringIsValid_thenReturnTrue() {
-        String s = "()[]{}";
+        String s = "([]){}";
         boolean actual = validParentheses.isValid(s);
         assertEquals(true, actual);
     }
