@@ -21,6 +21,7 @@
 ## Breadth-First Search / Depth-First Search
 - [Flood Fill](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/BFSAndDFS/FloodFill.java)
 - [Max Area of Island](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/BFSAndDFS/MaxAreaOfIsland.java)
+- [Merge Two Binary Trees](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/BFSAndDFS/MergeTwoBinaryTrees.java)
 
 ## Others
 - [Valid Parentheses](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/ValidParentheses.java)
