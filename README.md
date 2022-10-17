@@ -27,3 +27,4 @@
 ## Others
 - [Valid Parentheses](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/ValidParentheses.java)
 - [Roman To Integer](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/RomanToInteger.java)
+- [Check if the Sentence Is Pangram](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/CheckIfPangramTest.java)
