@@ -24,7 +24,22 @@ class PrisionerTest {
     }
 
     @Test
-    void canEscape_ReturnsFalse() {
+    void canEscape_IfGuardVisibleFromRight_ReturnsFalse() {
+        String[] prision = {
+                "|||||||S<|",
+                "|P ||   |",
+                "||  | | |",
+                "|v| | < |",
+                "| |   | |",
+                "|   |   |",
+                "|||||||||"
+        };
+
+        assertFalse(prisioner.canEscape(prision));
+    }
+
+    @Test
+    void canEscape_IfGuardVisibleFromLeft_ReturnsFalse() {
         String[] prision = {
                 "||||||>S||",
                 "|P ||   |",
@@ -34,7 +49,20 @@ class PrisionerTest {
                 "|   |   |",
                 "|||||||||"
         };
+    }
 
-        assertTrue(prisioner.canEscape(prision));
+    @Test
+    void canEscape_IfGuardVisibleFromBelow_ReturnsFalse() {
+        String[] prision = {
+                "|||||||S||",
+                "|P ||   |",
+                "||  | | |",
+                "|v| | < |",
+                "| |   | |",
+                "|   |   |",
+                "|||||||^|"
+        };
+
+        assertFalse(prisioner.canEscape(prision));
     }
 }
