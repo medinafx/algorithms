@@ -15,6 +15,8 @@ public class Prisioner {
                 || visited[position.x][position.y])
             return false;
 
+        visited[position.x][position.y] = true;
+
         if (isAWall(prison, position) || isGuardVisible(prison, position)) {
             return false;
         }
@@ -22,8 +24,6 @@ public class Prisioner {
         if (thePrisonerReachedTheExit(prison, position)) {
             return true;
         }
-
-        visited[position.x][position.y] = true;
 
         boolean canEscape = dfs(prison, new Point(position.x - 1, position.y), visited);
         if (!canEscape) {
