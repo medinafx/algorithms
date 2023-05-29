@@ -18,7 +18,7 @@ public class Prisioner {
         if (isAWall(prison, position) || isGuardVisible(prison, position)) {
             return false;
         }
-        
+
         if (thePrisonerReachedTheExit(prison, position)) {
             return true;
         }
@@ -50,21 +50,21 @@ public class Prisioner {
     }
 
     private boolean isGuardVisible(String[] prison, Point position) {
-       int rows = prison.length;
-        if (position.x + 1 < rows && prison[position.x + 1].charAt(position.y) == '<') {
+        int rows = prison.length;
+        if (position.x + 1 < rows && prison[position.x + 1].charAt(position.y) == '^') {
             return true;
         }
 
-        if (position.x - 1 > 0 && prison[position.x - 1].charAt(position.y) == '>') {
+        if (position.x - 1 > 0 && prison[position.x - 1].charAt(position.y) == 'v') {
             return true;
         }
 
         int cols = prison[0].length();
-        if (position.y + 1 < cols && prison[position.x].charAt(position.y + 1) == 'v') {
+        if (position.y + 1 < cols && prison[position.x].charAt(position.y + 1) == '<') {
             return true;
         }
 
-        if (position.y - 1 > 0 && prison[position.x].charAt(position.y - 1) == '^') {
+        if (position.y - 1 > 0 && prison[position.x].charAt(position.y - 1) == '>') {
             return true;
         }
 
