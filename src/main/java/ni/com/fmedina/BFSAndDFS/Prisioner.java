@@ -27,13 +27,13 @@ public class Prisioner {
 
         boolean canEscape = dfs(prison, new Point(position.x - 1, position.y), visited);
         if (!canEscape) {
-            canEscape = canEscape || dfs(prison, new Point(position.x + 1, position.y), visited);
+            canEscape = dfs(prison, new Point(position.x + 1, position.y), visited);
         }
         if (!canEscape) {
-            canEscape = canEscape || dfs(prison, new Point(position.x, position.y + 1), visited);
+            canEscape = dfs(prison, new Point(position.x, position.y + 1), visited);
         }
         if (!canEscape) {
-            canEscape = canEscape || dfs(prison, new Point(position.x, position.y - 1), visited);
+            canEscape = dfs(prison, new Point(position.x, position.y - 1), visited);
         }
 
         return canEscape;
