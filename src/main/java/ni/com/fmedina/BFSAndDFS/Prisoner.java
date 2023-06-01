@@ -1,6 +1,6 @@
 package ni.com.fmedina.BFSAndDFS;
 
-public class Prisioner {
+public class Prisoner {
 
     public boolean canEscape(String[] prison) {
         return dfs(prison, findPrisionerInitialPosition(prison), new boolean[prison.length][prison[0].length()]);

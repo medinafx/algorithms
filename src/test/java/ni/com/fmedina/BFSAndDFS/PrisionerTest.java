@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PrisionerTest {
 
-    private Prisioner prisioner = new Prisioner();
+    private Prisoner prisioner = new Prisoner();
 
     @Test
     void canEscape_ReturnsTrue() {
@@ -49,6 +49,8 @@ class PrisionerTest {
                 "|   |   |",
                 "|||||||||"
         };
+
+        assertFalse(prisioner.canEscape(prision));
     }
 
     @Test
