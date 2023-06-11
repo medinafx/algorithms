@@ -23,7 +23,7 @@
 - [Max Area of Island](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/BFSAndDFS/MaxAreaOfIsland.java)
 - [Merge Two Binary Trees](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/BFSAndDFS/MergeTwoBinaryTrees.java)
 - [Populating Next Right Pointers in Each Node](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/BFSAndDFS/PopulatingNextRightPointers.java)
-- [Escapando de Prisión](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/BFSAndDFS/Prisioner.java)
+
 
 ## Others
 - [Valid Parentheses](https://github.com/medinafx/algorithms/blob/main/src/main/java/ni/com/fmedina/ValidParentheses.java)
